@@ -44,5 +44,16 @@ REM Full script available in repository
 `Maintainer:` Kai_HT  
 `Encoding:` ANSI
 
-![Workflow Diagram](https://via.placeholder.com/800x400.png?text=Installation+Process+Flow)   
+```mermaid
+flowchart TD
+    A[Check WSL2 & Kali Installation] --> B[Select External Drive]
+    B --> C[Create Kali Directory Structure]
+    C --> D[Export Existing Kali Instance]
+    D --> E[Unregister Original WSL]
+    E --> F[Import to External Storage]
+    F --> G[Initialize New WSL Instance]
+    G --> H[Verify Desktop Environment]
+    H --> I[Complete Installation]
+
+```   
 Markdown file contains proper badge placement and section organization. For actual use, replace placeholder image URLs with real diagrams.

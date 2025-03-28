@@ -1,2 +1,2 @@
 * text=auto eol=crlf
-*.bat eol=crlf
+*.bat encoding=cp1252 working-tree-encoding=windows-1252 eol=crlf
